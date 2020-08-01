@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0.0'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+	maven {
+        url "${projectDir}/repository"
+    }
+}
+
+dependencies {
+   implementation 'com.example:library-project:1.0.0'
+}

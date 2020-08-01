@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "library-project",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "iyxp6iochzcnhairq6wxxeqt4a"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.example",
+          "module": "platform-project",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "library-project-1.0.0.jar",
+          "url": "library-project-1.0.0.jar",
+          "size": 261,
+          "sha512": "098505e0e0f587dbb022e554db54a8c34154815244deaf631591fd7835e89f385597344047ed52f22631b2128e958bfd04909fb8e9c6e7347f0769d8343a818f",
+          "sha256": "e081422970d95b04ce2de99389cd13948924e8ad7642516113b26e73129cee45",
+          "sha1": "8330f97911fbab7bca771899a99a14cee3dfe881",
+          "md5": "084f76694ce1363640da65ff5b09c08b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.example",
+          "module": "platform-project",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "library-project-1.0.0.jar",
+          "url": "library-project-1.0.0.jar",
+          "size": 261,
+          "sha512": "098505e0e0f587dbb022e554db54a8c34154815244deaf631591fd7835e89f385597344047ed52f22631b2128e958bfd04909fb8e9c6e7347f0769d8343a818f",
+          "sha256": "e081422970d95b04ce2de99389cd13948924e8ad7642516113b26e73129cee45",
+          "sha1": "8330f97911fbab7bca771899a99a14cee3dfe881",
+          "md5": "084f76694ce1363640da65ff5b09c08b"
+        }
+      ]
+    }
+  ]
+}

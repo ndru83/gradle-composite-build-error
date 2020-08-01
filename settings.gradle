@@ -1,0 +1,15 @@
+plugins {
+    id "com.gradle.enterprise" version "3.3.4"
+}
+
+gradleEnterprise {
+    buildScan {
+        obfuscation {
+            username { 'Obfuscated' }
+            hostname { 'Obfuscated' }
+            ipAddresses { [ 'Obfuscated' ] }
+        }
+    }
+}
+
+rootProject.name = 'gradle-composite-build-error'
